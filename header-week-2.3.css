@@ -150,7 +150,7 @@ hr {
 
 }
 
-.content {
+.moto-content {
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -165,7 +165,7 @@ hr {
     margin-top: 100px;
 }
 
-.details {
+.moto-text {
     font-family: "Sintony", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -178,7 +178,7 @@ hr {
     padding: 10px;
 }
 
-@media only screen and (max-width: 480px) {
+/* @media only screen and (max-width: 480px) {
     .content {
         flex-direction: column;
     }
@@ -186,4 +186,30 @@ hr {
     .details {
         width: 100%;
     }
+} */
+
+.juarez {
+    background: linear-gradient(90deg, #8aa195 -7.01%, #332e0b 139.37%);
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    width: 1440px;
+    height: 650px;
+    max-width: 1440px;
+    min-width: 1440px;
+    margin: 0 auto;
+}
+
+.juarez-text {
+    font-family: "Tomorrow", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #ffffff;
+    z-index: 1;
+    margin: 100px;
+    padding-top: 100px;
 }
