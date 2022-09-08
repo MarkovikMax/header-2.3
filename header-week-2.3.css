@@ -7,7 +7,7 @@ body {
     max-width: 1440px;
     margin: 0 auto;
 }
- 
+
 .logo-picture {
     background-image: url('img-2.3/uneak-logo.png');
     background-repeat: no-repeat;
@@ -19,8 +19,7 @@ body {
     margin: 0px 0px 0px 100px;
 }
 
-.search-bar {
-}
+.search-bar {}
 
 .bag-image {
     background-image: url('img-2.3/bag-symbol.png');
@@ -55,6 +54,12 @@ body {
 }
 
 .header {
+    background-image: url('img-2.3/header-back-rectangle.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    width: 1440px;
+    height: 610px;
     max-width: 1440px;
     min-width: 1440px;
     margin: 0 auto;
@@ -70,14 +75,14 @@ body {
     text-transform: uppercase;
     color: #000000;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    margin: 100px;
     z-index: 1;
     position: inherit;
+    padding: 100px;
 }
 
 .sneakers-header {}
 
-.rectangle-header {
+/* .rectangle-header {
     background-image: url('img-2.3/header-back-rectangle.png');
     background-repeat: no-repeat;
     background-position: 50%;
@@ -87,6 +92,60 @@ body {
     margin: 0 auto;
     position: relative;
 
+} */
+
+.scroll-text {
+    width: 90px;
+    height: 17px;
+    font-family: "Tomorrow", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 130%;
+    letter-spacing: 0.04em;
+    color: #484c32;
+    transform: rotate(-90deg);
+    z-index: 1;
+    position: absolute;
+    left: 7%;
+    top: 100%;
+
 }
 
-.scroll-section
+.sneakers-header {
+    background-image: url('img-2.3/header-back-sneakers.png');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100%;
+    width: 500px;
+    height: 370px;
+    z-index: 1;
+    justify-content: right;
+    float: right;
+    margin: 100px;
+    position: absolute;
+    transform: translate(110%, -110%);
+}
+
+/* .header-line {
+    position: absolute;
+    width: 1029px;
+    height: 0px;
+    border: 3px solid #484C32;
+    /* transform: translate(20%, -1000%); */
+/* display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    float: right;
+} */
+
+hr {
+    display: flexbox;
+    transform: translateY(-1000%);
+    justify-content: center;
+    z-index: 1;
+    width: 80%;
+    color: #000000;
+    border: 3px solid #484C32;
+
+}
