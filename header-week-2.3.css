@@ -459,3 +459,32 @@ hr {
     margin-left: 100px;
     margin-top: 150px;
 }
+
+.materials {
+    width: 1440px;
+    height: 523px;
+    background: #FFFFFF;
+}
+
+.materials-header {
+    font-family: 'Sintony', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #000000;
+    padding-left: 400px;
+    padding-top: 100px;
+}
+
+.materials-list {
+    font-family: 'Sintony', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #000000;
+    padding-left: 400px;
+    padding-right: 200px;
+    padding-bottom: 100px;
+}
