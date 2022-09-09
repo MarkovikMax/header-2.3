@@ -19,7 +19,13 @@ body {
     margin: 0px 0px 0px 100px;
 }
 
-.search-bar {}
+.search-bar {
+    background-image: url('/img-2.3/bd.svg');
+    background-repeat: no-repeat;
+    height: 50px;
+    width: 50px;
+    /* vertical-align: bottom; */
+}
 
 .bag-image {
     background-image: url('img-2.3/bag-symbol.png');
@@ -37,9 +43,9 @@ body {
     display: inline-block;
     margin: 30px;
     /* float: right; */
+    /* text-align-last: end; */
     text-align: right;
-    vertical-align: text-top;
-    text-align-last: end;
+    vertical-align: middle;
 }
 
 .nav-bar-top-ul {
@@ -54,18 +60,22 @@ body {
     line-height: 130%;
     letter-spacing: 0.04em;
     color: #000000;
+    text-align: right;
+    vertical-align: middle;
 }
 
 .header {
     background-image: url('img-2.3/header-back-rectangle.png');
     background-repeat: no-repeat;
     background-position: 50%;
-    background-size: 100%;
+    background-size: cover;
     width: 1440px;
-    height: 610px;
+    /* height: 610px; */
     max-width: 1440px;
     min-width: 1440px;
     margin: 0 auto;
+    padding-bottom: 150px;
+    position: relative;
 }
 
 .header-description {
@@ -110,8 +120,10 @@ body {
     transform: rotate(-90deg);
     z-index: 1;
     position: absolute;
-    left: 7%;
-    top: 100%;
+    /* left: 7%;
+    top: 100%; */
+    left: 60px;
+    bottom: 50px;
 
 }
 
@@ -120,14 +132,15 @@ body {
     background-repeat: no-repeat;
     background-position: 50%;
     background-size: 100%;
-    width: 500px;
-    height: 370px;
+    width: 600px;
+    height: 450px;
     z-index: 1;
-    justify-content: right;
-    float: right;
-    margin: 100px;
+    /* justify-content: right; */
+    /* float: right; */
+    /* margin: 100px; */
     position: absolute;
-    transform: translate(110%, -110%);
+    left: 700px;
+    bottom: 0px;
 }
 
 /* .header-line {
@@ -144,12 +157,15 @@ body {
 
 hr {
     /* display: flexbox; */
-    transform: translateY(-1000%);
+    /* transform: translateY(-1000%); */
     justify-content: center;
     z-index: 1;
     width: 80%;
     color: #000000;
     border: 3px solid #484C32;
+    position: absolute;
+    left: 100px;
+    bottom: 150px;
 
 }
 
@@ -191,7 +207,7 @@ hr {
     }
 } */
 
-.juarez {
+.product-description {
     background: linear-gradient(90deg, #8aa195 -7.01%, #332e0b 139.37%);
     background-repeat: no-repeat;
     background-position: 50%;
@@ -203,7 +219,7 @@ hr {
     margin: 0 auto;
 }
 
-.juarez-text {
+.product-description-text {
     font-family: "Tomorrow", sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -216,3 +232,41 @@ hr {
     margin: 100px;
     padding-top: 100px;
 }
+
+.certified-materials-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 1.5em;
+}
+
+.certified-materials-image {
+    background-image: url('/img-2.3/cacti-sneakers-moto.png');
+    width: 388px;
+    height: 288px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.certified-materials-text {
+    font-family: "Sintony", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 140%;
+    color: #000000;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 70px;
+    width: calc(100% - 150px);
+    padding: 10px;
+}
+
+/* @media only screen and (max-width: 480px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .details {
+        width: 100%;
+    }
+} */
