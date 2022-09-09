@@ -316,3 +316,39 @@ hr {
     margin-top: 280px;
     margin-right: 160px;
 }
+
+.process-test {
+    /* background: linear-gradient(90deg, #e5ecde -7.01%, #dededc 139.37%); */
+    background-image: url(/img-2.3/rectangle-process.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 100%;
+    width: 1440px;
+    height: 1378px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#process-pictures {
+    float: right;
+    padding-top: 100px;
+    padding-right: 250px;
+}
+
+.process-picture-item-1 {
+    background-image: url('/img-2.3/juarez-white.png');
+    width: 500px;
+    height: 375px;
+}
+
+.process-picture-item-2 {
+    background-image: url('/img-2.3/juarez-black.png');
+    width: 500px;
+    height: 375px;
+}
+
+.process-picture-item-3 {
+    background-image: url('/img-2.3/juarez-brown.png');
+    width: 500px;
+    height: 375px;
+}
