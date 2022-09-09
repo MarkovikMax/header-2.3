@@ -139,7 +139,7 @@ body {
     /* float: right; */
     /* margin: 100px; */
     position: absolute;
-    left: 700px;
+    left: 600px;
     bottom: 0px;
 }
 
@@ -241,24 +241,37 @@ hr {
 }
 
 .certified-materials-image {
-    background-image: url('/img-2.3/cacti-sneakers-moto.png');
-    width: 388px;
-    height: 288px;
+    background-image: url('/img-2.3/juarez-optop.png');
+    width: 606px;
+    height: 608px;
     margin-left: 100px;
     margin-top: 100px;
 }
 
-.certified-materials-text {
-    font-family: "Sintony", sans-serif;
+.certified-materials-header {
+    font-family: 'Sintony', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 140%;
     color: #000000;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 70px;
-    width: calc(100% - 150px);
+    /* width: calc(100% - 150px); */
     padding: 10px;
+    width: 40%;
+    text-align: left;
+}
+
+.certified-materials-text {
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 160%;
+    color: #000000;
+    /* margin: 70px; */
+    /* width: calc(100% - 150px); */
+    /* padding: 10px; */
 }
 
 /* @media only screen and (max-width: 480px) {
