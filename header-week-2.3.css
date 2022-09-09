@@ -542,3 +542,109 @@ hr {
     margin: 15px auto 100px;
 }
 
+.sign-up {
+    width: 500px;
+    margin-right: 0;
+}
+
+.sign-up-header {
+    font-family: 'Sintony', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+    padding-left: 200px;
+}
+
+.sign-up-icons {
+    float: left;
+}
+
+.sign-up-icons-list {
+    list-style: none;
+    display: inline;
+    padding-left: 200px;
+}
+
+.sign-up-icons-list-item-1 {
+    display: inline-flex;
+    background-image: url('/img-2.3/logo-instagram.svg');
+    background-position: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36.75px;
+    width: 36.75px;
+    border-radius: 0px;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.sign-up-icons-list-item-2 {
+    display: inline-flex;
+    background-image: url('/img-2.3/logo-facebook.svg');
+    background-position: 50%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 36.75px;
+    width: 36.75px;
+    border-radius: 0px;
+    margin-top: 15px;
+}
+
+.faq-aside {}
+
+.faq-aside-container {}
+
+.faq-aside-list {
+    list-style: none;
+    font-family: 'Sintony', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+    padding-right: 200px;
+    padding-bottom: 20px;
+    margin: 0;
+
+}
+
+.faq-aside-list-item {
+    margin-bottom: 10px;
+}
+
+.footer-menus-two-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom-menu {
+    /* margin-left: 350px; */
+    display: table;
+    margin: 0 auto;
+}
+
+.footer-bottom-menu-container {}
+
+.footer-bottom-menu-list {
+    display: inline-flex;
+    list-style: none;
+    font-family: 'Sintony';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+    margin: 0 auto;
+}
+
+.footer-bottom-menu-list-item {
+    display: inline-flex;
+    margin: 10px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
