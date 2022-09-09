@@ -514,3 +514,31 @@ hr {
     padding: 400px 200px 400px 200px;
 }
 
+.footer-header {
+    text-align: center;
+    justify-content: center;
+    margin: 0 auto;
+    position: relative;
+}
+
+.footer-header-text {
+    font-family: 'Sintony', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 160%;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.footer-header-button {
+    background-image: url('/img-2.3/subscribe-btn.png');
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 157px;
+    height: 46px;
+    justify-content: center;
+    margin: 15px auto 100px;
+}
+
